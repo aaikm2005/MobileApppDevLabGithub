@@ -82,8 +82,9 @@ class PageUtama extends StatelessWidget {
                   children: [
                     Container(
                       padding: const EdgeInsets.all(16),
-                      decoration: const BoxDecoration(
-                        color: Color.fromARGB(255, 220, 238, 245),
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 201, 209, 157),
+                        borderRadius: BorderRadius.circular(14.0),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -101,8 +102,9 @@ class PageUtama extends StatelessWidget {
                     ),
                     Container(
                       padding: const EdgeInsets.all(16),
-                      decoration: const BoxDecoration(
-                        color: Color.fromARGB(255, 220, 238, 245),
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 209, 157, 157),
+                        borderRadius: BorderRadius.circular(14.0),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -120,8 +122,9 @@ class PageUtama extends StatelessWidget {
                     ),
                     Container(
                       padding: const EdgeInsets.all(16),
-                      decoration: const BoxDecoration(
-                        color: Color.fromARGB(255, 245, 220, 220),
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 157, 194, 209),
+                        borderRadius: BorderRadius.circular(14.0),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -139,8 +142,9 @@ class PageUtama extends StatelessWidget {
                     ),
                     Container(
                       padding: const EdgeInsets.all(16),
-                      decoration: const BoxDecoration(
-                        color: Color.fromARGB(255, 230, 220, 245),
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 162, 209, 157),
+                        borderRadius: BorderRadius.circular(14.0),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
