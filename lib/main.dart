@@ -7,7 +7,6 @@ void main() {
 class PageUtama extends StatelessWidget {
   const PageUtama({super.key});
 
-  //Declaring a function
   void doSomething() {
     print('button sua kena tekan');
   }
@@ -23,8 +22,11 @@ class PageUtama extends StatelessWidget {
               doSomething();
             },
           ),
-          backgroundColor: Colors.blue,
-          title: const Text('Profile'),
+          backgroundColor: const Color.fromARGB(255, 122, 166, 202),
+          title: const Text(
+            'Profile',
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
         ),
         body: Center(
           child: Column(
@@ -38,7 +40,125 @@ class PageUtama extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-              Text("Hello! gay sia"),
+              const SizedBox(height: 10),
+              const Text(
+                "Angel Juliana",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 14,
+                  vertical: 6,
+                ),
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(65, 13, 66, 110),
+                  borderRadius: BorderRadius.circular(88.888),
+                ),
+                child: const Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(
+                      Icons.school,
+                      size: 17,
+                      color: Color.fromARGB(255, 255, 255, 255),
+                    ),
+                    SizedBox(width: 6),
+                    Text(
+                      "Student",
+                      style: TextStyle(
+                        fontSize: 17,
+                        color: Color.fromARGB(255, 255, 255, 255),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 40),
+
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 220, 238, 245),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/skincare-homepage-photo.jpg',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("100%"),
+                          const SizedBox(height: 10),
+                          const Text("Angel Juliana"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 220, 238, 245),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/skincare-homepage-photo.jpg',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("100%"),
+                          const SizedBox(height: 10),
+                          const Text("Angel Juliana"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 245, 220, 220),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/skincare-homepage-photo.jpg',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("100%"),
+                          const SizedBox(height: 10),
+                          const Text("Angel Juliana"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 230, 220, 245),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/skincare-homepage-photo.jpg',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("100%"),
+                          const SizedBox(height: 10),
+                          const Text("Angel Juliana"),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
